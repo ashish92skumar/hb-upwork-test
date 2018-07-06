@@ -50,6 +50,7 @@ group :development do
   gem 'capistrano-rvm'
 
 end
+gem 'aws-sdk', '~> 3'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

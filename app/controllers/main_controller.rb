@@ -1,7 +1,8 @@
 class MainController < ApplicationController
 
   def gadgets
-    render json: {status: 201}
+    response = Gadget.get_gadget(permitted_params)
+    render json: response
   end
 
   private
